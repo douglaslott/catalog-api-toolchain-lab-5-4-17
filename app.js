@@ -26,6 +26,6 @@ app.get('/items/:id', items.find);
 app.post('/items', items.create);
 app.put('/items/:id', items.update);
 app.delete('/items/:id', items.remove);
-// arbitrary changes
+// arbitrary changes made
 app.listen(appEnv.port, appEnv.bind);
 console.log('App started on ' + appEnv.bind + ':' + appEnv.port);
