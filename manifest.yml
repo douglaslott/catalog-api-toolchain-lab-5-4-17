@@ -5,6 +5,6 @@ applications:
   name: MicroservicesCatalogAPI
   buildpack: sdk-for-nodejs
   memory: 128m
-  instances: 2
+  instances: 1
   path: .
 
